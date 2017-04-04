@@ -27,7 +27,7 @@ export class QuotesPage implements OnInit {
     const alert =  this.alertCtrl.create({
       title: 'Add Quote',
       subTitle: 'Are you sure',
-      message: 'Are uou sure you want to add that quote to favorites',
+      message: '<span class="message">Are uou sure you want to add that quote to favorites</span>',
       buttons: [
         {
           text: 'Cancel',
